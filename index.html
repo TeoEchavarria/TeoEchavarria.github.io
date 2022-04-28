@@ -13,6 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href=./css/headers.css>
     <link rel="stylesheet" href=./css/info.css>
+    <link rel="stylesheet" href=./css/carousel.css>
     <link rel="stylesheet" href=./css/bootstrap.min.css>
 
     <style>
@@ -37,8 +38,8 @@
             <header class="d-flex justify-content-center py-3">
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Couses</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                 <li class="nav-item"><a href="#conteactme" class="nav-link">Contactme</a></li>
             </ul>
             </header>
@@ -76,6 +77,66 @@
     </div>
     </div>
 
+    
+    <div id = "courses">
+
+    </div>
+
+    <div id = "projects" class="container">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#F2A341"/></svg>
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Challenges</h1>
+                <p>This repository will contain code snippets which are solutions to some challenges proposed by different platforms.  Such as Platzi or CodeWars; in some of them I make reference to the links from where I took them.</p>
+                <p><a class="btn btn-lg btn-outline-light" href="https://github.com/TeoEchavarria/Challenges">Ver más</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#F2A341"/></svg>
+    
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>FastAPI-IoT</h1>
+                <p>User CRUD | CRUD of things | API with MySQL connection | Visualization, monitoring and control of processes | Results analysis and evaluation</p>
+                <p><a class="btn btn-lg btn-outline-light" href="https://github.com/TeoEchavarria/FastAPI-IoT">Ver más</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#F2A341"/></svg>
+    
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>maTh</h1>
+                <p>In this repository you will find small solutions to mathematical problems of different branches of mathematics.</p>
+                <p><a class="btn btn-lg btn-outline-light" href="https://github.com/TeoEchavarria/maTh">Ver más</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 m-3 border-top">
       <div class="col-md-4 d-flex align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
@@ -91,6 +152,6 @@
 
       </ul>
     </footer>
-      
+    <script src="./css/bootstrap.bundle.min.js"></script>  
   </body>
 </html>
