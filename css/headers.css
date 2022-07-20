@@ -1,16 +1,16 @@
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: white !important;
-  background-color: #234670 !important;
+  background-color: #2D3E40 !important;
 }
 
 .nav-pills .nav-link {
   margin-right: 2px;
-  color: #234670 !important;
+  color: #2D3E40 !important;
 }
 
 .nav-pills:hover .nav-link:hover {
   background-color: #E5EAED !important; 
-  color: #234670 !important;
+  color: #2D3E40 !important;
 }
 
 
